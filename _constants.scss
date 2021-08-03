@@ -1,0 +1,14 @@
+$primaryTextColor : #090b08;
+$primaryBackgroundColor : #ecffe9;
+$primaryLightColor : #fff;
+$primaryDarkColor: #000;
+$lightGreenColor: #c0eea9;
+$darkGreenColor: #97d279;
+$standaardPadding: 20px;
+
+@mixin textStyling {
+  max-width: 700px;
+  text-align: center;
+  padding: $standaardPadding;
+  
+}
